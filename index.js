@@ -14,7 +14,7 @@ const noBtn = document.querySelector('#noBtn');
 
 noBtn.addEventListener('click', function () {
 
-    alert('¿Y AHORA SI ME PERDONAS?')
+    alert('¿En serio no me perdonas?')
 
 });
 
