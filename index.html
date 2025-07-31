@@ -41,6 +41,17 @@
                 <button class="no" id="noBtn"></button>
 
             </div>
+            <audio id="musica" autoplay loop>
+  <source src="VexoTevo.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+  // Espera a que el usuario interactúe antes de reproducir
+  document.addEventListener("click", () => {
+    const audio = document.getElementById("musica");
+    audio.play();
+  }, { once: true });
+</script>
         </div>
     </div>
 
